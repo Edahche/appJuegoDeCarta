@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC39DA22263F88460082227E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39DA21263F88460082227E /* AppDelegate.m */; };
+		AC39DA25263F88460082227E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39DA24263F88460082227E /* SceneDelegate.m */; };
+		AC39DA28263F88460082227E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39DA27263F88460082227E /* ViewController.m */; };
+		AC39DA2B263F88460082227E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC39DA29263F88460082227E /* Main.storyboard */; };
+		AC39DA2D263F885E0082227E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC39DA2C263F885E0082227E /* Assets.xcassets */; };
+		AC39DA30263F885E0082227E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC39DA2E263F885E0082227E /* LaunchScreen.storyboard */; };
+		AC39DA33263F885E0082227E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39DA32263F885E0082227E /* main.m */; };
+		AC39DA3D263F885F0082227E /* appJuegoDeCartaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39DA3C263F885F0082227E /* appJuegoDeCartaTests.m */; };
+		AC39DA48263F885F0082227E /* appJuegoDeCartaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39DA47263F885F0082227E /* appJuegoDeCartaUITests.m */; };
+		AC39DA57263F91D70082227E /* carta.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39DA56263F91D70082227E /* carta.m */; };
+		AC39DA5A263F961A0082227E /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39DA59263F961A0082227E /* Deck.m */; };
+		AC39DA5D263F971D0082227E /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39DA5C263F971D0082227E /* PlayingCard.m */; };
+		AC39DA60263F9AFF0082227E /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39DA5F263F9AFF0082227E /* PlayingCardDeck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC39DA39263F885F0082227E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC39DA15263F88450082227E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC39DA1C263F88450082227E;
+			remoteInfo = appJuegoDeCarta;
+		};
+		AC39DA44263F885F0082227E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC39DA15263F88450082227E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC39DA1C263F88450082227E;
+			remoteInfo = appJuegoDeCarta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC39DA1D263F88460082227E /* appJuegoDeCarta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appJuegoDeCarta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC39DA20263F88460082227E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC39DA21263F88460082227E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC39DA23263F88460082227E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AC39DA24263F88460082227E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AC39DA26263F88460082227E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC39DA27263F88460082227E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC39DA2A263F88460082227E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC39DA2C263F885E0082227E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC39DA2F263F885E0082227E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC39DA31263F885E0082227E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC39DA32263F885E0082227E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC39DA38263F885F0082227E /* appJuegoDeCartaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appJuegoDeCartaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC39DA3C263F885F0082227E /* appJuegoDeCartaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appJuegoDeCartaTests.m; sourceTree = "<group>"; };
+		AC39DA3E263F885F0082227E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC39DA43263F885F0082227E /* appJuegoDeCartaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appJuegoDeCartaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC39DA47263F885F0082227E /* appJuegoDeCartaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appJuegoDeCartaUITests.m; sourceTree = "<group>"; };
+		AC39DA49263F885F0082227E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC39DA55263F91D70082227E /* carta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = carta.h; sourceTree = "<group>"; };
+		AC39DA56263F91D70082227E /* carta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carta.m; sourceTree = "<group>"; };
+		AC39DA58263F961A0082227E /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		AC39DA59263F961A0082227E /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		AC39DA5B263F971D0082227E /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		AC39DA5C263F971D0082227E /* PlayingCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		AC39DA5E263F9AFF0082227E /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		AC39DA5F263F9AFF0082227E /* PlayingCardDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC39DA1A263F88450082227E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39DA35263F885F0082227E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39DA40263F885F0082227E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC39DA14263F88450082227E = {
+			isa = PBXGroup;
+			children = (
+				AC39DA1F263F88460082227E /* appJuegoDeCarta */,
+				AC39DA3B263F885F0082227E /* appJuegoDeCartaTests */,
+				AC39DA46263F885F0082227E /* appJuegoDeCartaUITests */,
+				AC39DA1E263F88460082227E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC39DA1E263F88460082227E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC39DA1D263F88460082227E /* appJuegoDeCarta.app */,
+				AC39DA38263F885F0082227E /* appJuegoDeCartaTests.xctest */,
+				AC39DA43263F885F0082227E /* appJuegoDeCartaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC39DA1F263F88460082227E /* appJuegoDeCarta */ = {
+			isa = PBXGroup;
+			children = (
+				AC39DA20263F88460082227E /* AppDelegate.h */,
+				AC39DA21263F88460082227E /* AppDelegate.m */,
+				AC39DA23263F88460082227E /* SceneDelegate.h */,
+				AC39DA24263F88460082227E /* SceneDelegate.m */,
+				AC39DA26263F88460082227E /* ViewController.h */,
+				AC39DA27263F88460082227E /* ViewController.m */,
+				AC39DA29263F88460082227E /* Main.storyboard */,
+				AC39DA55263F91D70082227E /* carta.h */,
+				AC39DA56263F91D70082227E /* carta.m */,
+				AC39DA58263F961A0082227E /* Deck.h */,
+				AC39DA59263F961A0082227E /* Deck.m */,
+				AC39DA5B263F971D0082227E /* PlayingCard.h */,
+				AC39DA5C263F971D0082227E /* PlayingCard.m */,
+				AC39DA5E263F9AFF0082227E /* PlayingCardDeck.h */,
+				AC39DA5F263F9AFF0082227E /* PlayingCardDeck.m */,
+				AC39DA2C263F885E0082227E /* Assets.xcassets */,
+				AC39DA2E263F885E0082227E /* LaunchScreen.storyboard */,
+				AC39DA31263F885E0082227E /* Info.plist */,
+				AC39DA32263F885E0082227E /* main.m */,
+			);
+			path = appJuegoDeCarta;
+			sourceTree = "<group>";
+		};
+		AC39DA3B263F885F0082227E /* appJuegoDeCartaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC39DA3C263F885F0082227E /* appJuegoDeCartaTests.m */,
+				AC39DA3E263F885F0082227E /* Info.plist */,
+			);
+			path = appJuegoDeCartaTests;
+			sourceTree = "<group>";
+		};
+		AC39DA46263F885F0082227E /* appJuegoDeCartaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC39DA47263F885F0082227E /* appJuegoDeCartaUITests.m */,
+				AC39DA49263F885F0082227E /* Info.plist */,
+			);
+			path = appJuegoDeCartaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC39DA1C263F88450082227E /* appJuegoDeCarta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC39DA4C263F885F0082227E /* Build configuration list for PBXNativeTarget "appJuegoDeCarta" */;
+			buildPhases = (
+				AC39DA19263F88450082227E /* Sources */,
+				AC39DA1A263F88450082227E /* Frameworks */,
+				AC39DA1B263F88450082227E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appJuegoDeCarta;
+			productName = appJuegoDeCarta;
+			productReference = AC39DA1D263F88460082227E /* appJuegoDeCarta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC39DA37263F885F0082227E /* appJuegoDeCartaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC39DA4F263F885F0082227E /* Build configuration list for PBXNativeTarget "appJuegoDeCartaTests" */;
+			buildPhases = (
+				AC39DA34263F885F0082227E /* Sources */,
+				AC39DA35263F885F0082227E /* Frameworks */,
+				AC39DA36263F885F0082227E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC39DA3A263F885F0082227E /* PBXTargetDependency */,
+			);
+			name = appJuegoDeCartaTests;
+			productName = appJuegoDeCartaTests;
+			productReference = AC39DA38263F885F0082227E /* appJuegoDeCartaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC39DA42263F885F0082227E /* appJuegoDeCartaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC39DA52263F885F0082227E /* Build configuration list for PBXNativeTarget "appJuegoDeCartaUITests" */;
+			buildPhases = (
+				AC39DA3F263F885F0082227E /* Sources */,
+				AC39DA40263F885F0082227E /* Frameworks */,
+				AC39DA41263F885F0082227E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC39DA45263F885F0082227E /* PBXTargetDependency */,
+			);
+			name = appJuegoDeCartaUITests;
+			productName = appJuegoDeCartaUITests;
+			productReference = AC39DA43263F885F0082227E /* appJuegoDeCartaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC39DA15263F88450082227E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Guest User";
+				TargetAttributes = {
+					AC39DA1C263F88450082227E = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					AC39DA37263F885F0082227E = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = AC39DA1C263F88450082227E;
+					};
+					AC39DA42263F885F0082227E = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = AC39DA1C263F88450082227E;
+					};
+				};
+			};
+			buildConfigurationList = AC39DA18263F88450082227E /* Build configuration list for PBXProject "appJuegoDeCarta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC39DA14263F88450082227E;
+			productRefGroup = AC39DA1E263F88460082227E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC39DA1C263F88450082227E /* appJuegoDeCarta */,
+				AC39DA37263F885F0082227E /* appJuegoDeCartaTests */,
+				AC39DA42263F885F0082227E /* appJuegoDeCartaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC39DA1B263F88450082227E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC39DA30263F885E0082227E /* LaunchScreen.storyboard in Resources */,
+				AC39DA2D263F885E0082227E /* Assets.xcassets in Resources */,
+				AC39DA2B263F88460082227E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39DA36263F885F0082227E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39DA41263F885F0082227E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC39DA19263F88450082227E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC39DA28263F88460082227E /* ViewController.m in Sources */,
+				AC39DA60263F9AFF0082227E /* PlayingCardDeck.m in Sources */,
+				AC39DA22263F88460082227E /* AppDelegate.m in Sources */,
+				AC39DA5D263F971D0082227E /* PlayingCard.m in Sources */,
+				AC39DA33263F885E0082227E /* main.m in Sources */,
+				AC39DA25263F88460082227E /* SceneDelegate.m in Sources */,
+				AC39DA5A263F961A0082227E /* Deck.m in Sources */,
+				AC39DA57263F91D70082227E /* carta.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39DA34263F885F0082227E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC39DA3D263F885F0082227E /* appJuegoDeCartaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39DA3F263F885F0082227E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC39DA48263F885F0082227E /* appJuegoDeCartaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC39DA3A263F885F0082227E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC39DA1C263F88450082227E /* appJuegoDeCarta */;
+			targetProxy = AC39DA39263F885F0082227E /* PBXContainerItemProxy */;
+		};
+		AC39DA45263F885F0082227E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC39DA1C263F88450082227E /* appJuegoDeCarta */;
+			targetProxy = AC39DA44263F885F0082227E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC39DA29263F88460082227E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC39DA2A263F88460082227E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC39DA2E263F885E0082227E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC39DA2F263F885E0082227E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC39DA4A263F885F0082227E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC39DA4B263F885F0082227E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC39DA4D263F885F0082227E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appJuegoDeCarta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practicas.appJuegoDeCarta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC39DA4E263F885F0082227E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appJuegoDeCarta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practicas.appJuegoDeCarta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC39DA50263F885F0082227E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appJuegoDeCartaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practicas.appJuegoDeCartaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appJuegoDeCarta.app/appJuegoDeCarta";
+			};
+			name = Debug;
+		};
+		AC39DA51263F885F0082227E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appJuegoDeCartaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practicas.appJuegoDeCartaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appJuegoDeCarta.app/appJuegoDeCarta";
+			};
+			name = Release;
+		};
+		AC39DA53263F885F0082227E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appJuegoDeCartaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practicas.appJuegoDeCartaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appJuegoDeCarta;
+			};
+			name = Debug;
+		};
+		AC39DA54263F885F0082227E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appJuegoDeCartaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practicas.appJuegoDeCartaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appJuegoDeCarta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC39DA18263F88450082227E /* Build configuration list for PBXProject "appJuegoDeCarta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC39DA4A263F885F0082227E /* Debug */,
+				AC39DA4B263F885F0082227E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC39DA4C263F885F0082227E /* Build configuration list for PBXNativeTarget "appJuegoDeCarta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC39DA4D263F885F0082227E /* Debug */,
+				AC39DA4E263F885F0082227E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC39DA4F263F885F0082227E /* Build configuration list for PBXNativeTarget "appJuegoDeCartaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC39DA50263F885F0082227E /* Debug */,
+				AC39DA51263F885F0082227E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC39DA52263F885F0082227E /* Build configuration list for PBXNativeTarget "appJuegoDeCartaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC39DA53263F885F0082227E /* Debug */,
+				AC39DA54263F885F0082227E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC39DA15263F88450082227E /* Project object */;
+}
